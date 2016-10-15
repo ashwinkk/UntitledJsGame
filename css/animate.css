@@ -1,0 +1,48 @@
+@keyframes pop{
+	0%{
+		top: 200%;
+	}
+	90%{
+		top: 33%;
+	}
+	100%{
+		top: 35%;
+	}
+}
+
+@keyframes closing{
+	0%{
+		top: 35%;
+	}
+	100%{
+		top: 200%;
+	}
+}
+.animatedpopup{
+	position: absolute;
+	left: 25%;
+	text-align: center;
+	width: 50%;
+	top: 35%;
+	background-color: white;
+	height: 30%;
+	animation: pop 0.8s ease-in-out;
+	animation-delay: 0s;
+}
+
+.fallback{
+	position: absolute;
+	left: 25%;
+	width: 50%;
+	top:200%;
+	background-color: white;
+	height: 30%;
+	animation: closing 0.8s ease-in-out;
+	animation-delay: 0s;
+}
+
+.closegame{
+	animation: closing 2s ease-in-out;
+	animation-delay: 0s;
+	top: 200%;
+}

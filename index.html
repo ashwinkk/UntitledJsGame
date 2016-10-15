@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Coming Soon!</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link href='https://fonts.googleapis.com/css?family=Luckiest+Guy' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+</head>
+<body id="surface">
+	<div class="game" id="game">
+		<div style="position:absolute;width:30%;height:100%;left:35%;" id="gamearea">
+			<div class="mascot" id="bucky"><img src="imgs/astronaut11.png"></div>
+		</div>
+		<div class="popup" id="gamestart">
+			<h3 class="scorevalue">Welcome to _______</h3>
+			<h3 class="scorevalue">Click to start playing</h3>
+			<button id="start" class="btn-start">Start</button>
+		</div>
+		<div class="popup" id="score">
+			<h3 class="scorevalue" id="finalscore"></h3>
+			<button id="reset" class="btn-start">Reset</button>
+		</div>
+		<p id="status" class="score"></p>
+		<div><button class="closebutton" id="closegame"><i class="fa fa-times fa-2x"></i></button></div>
+	</div>
+	
+	<script type="text/javascript" src="js/buckyfall.js"></script>
+</body>
+</html>

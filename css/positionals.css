@@ -1,0 +1,117 @@
+body{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	overflow: hidden;
+}
+div h1{
+	animation: fall 5s infinite;
+}
+
+.cloud040{
+	position: absolute;
+	bottom: 0%;
+	/*animation: clouds0 3s linear infinite;*/
+	left: 40%;
+}
+.cloud05507{
+	position: absolute;
+	bottom: 70%;
+	/*animation: clouds07 4s linear infinite;*/
+	left: 55%;
+}
+.cloud0303{
+	position: absolute;
+	bottom: 30%;
+	/*animation: clouds03 2s linear infinite;*/
+	left:30%;
+}
+.cloud0403{
+	position: absolute;
+	bottom: 30%;
+	/*animation: clouds03 2s linear infinite;*/
+	left:40%;
+}
+.cloud05503{
+	position: absolute;
+	bottom: 30%;
+	/*animation: clouds03 3s linear infinite;*/
+	left:55%;
+}
+.cloud030{
+	position: absolute;
+	bottom: 0%;
+	/*animation: clouds0 2s linear infinite;*/
+	left:30%;
+}
+.cloud06507{
+	position: absolute;
+	bottom: 70%;
+	/*animation: clouds0 2s linear infinite;*/
+	left:60%;
+}
+
+.weffect{
+	animation:fall 3s linear infinite;
+}
+@font-face{
+	font-family: 'VintageOne';
+	src: url('../fonts/VintageOne.ttf');
+	font-weight: bold;
+}
+.heading{
+	font-family: 'VintageOne';
+	font-size: 40px;
+	position: absolute;
+	left:22%;
+	top:0%;
+}
+
+.social{
+	position: relative;
+	border-radius: 50%;
+	font-size: 30px;
+	height: 30px;
+	float:left;
+	width: 30px;
+	text-align: center;
+	margin-right: 10px;
+}
+.faceb{
+	border:1px solid white;
+	padding: 10px;
+	animation: fallsocial 2s infinite;
+	transition : border 0.5s,background-color 0.5s,color 0.5s,padding 0.5s;
+}
+.gplus{
+	border:1px solid white;
+	padding: 10px;
+	animation: fallsocial 2s infinite;
+	transition : border 0.5s,background-color 0.5s,color 0.5s,padding 0.5s;
+}
+.faceb:hover{
+	border:1px solid #3b5998;
+	color:white;
+	padding: 11px;
+	background-color: #3b5998; 
+}
+.gplus:hover{
+	border:1px solid #dd4b39;
+	color:white;
+	padding: 11px;
+	background-color: #dd4b39; 
+}
+a,a:active,a:visited,a:hover,a:focus{
+	text-decoration: none;
+	color:black;
+	display: inline-block;
+}
+.footer{
+	bottom:0;
+	right: 0;
+	position: absolute;
+	width: 200px;
+	height: 100px;
+}
